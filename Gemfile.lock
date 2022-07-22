@@ -82,6 +82,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
+    pg (1.4.1)
     puma (3.12.1)
     rack (2.0.7)
     rack-test (0.6.3)
@@ -143,7 +144,7 @@ GEM
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
@@ -166,6 +167,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   listen (~> 3.0.5)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.0)
   sass-rails (~> 5.0)
